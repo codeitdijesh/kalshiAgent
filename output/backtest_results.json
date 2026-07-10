@@ -1,0 +1,413 @@
+{
+  "starting_bankroll": 100.0,
+  "bankroll_history": [
+    {
+      "date": "2025-W01",
+      "bankroll": 96.6184
+    },
+    {
+      "date": "2025-W03",
+      "bankroll": 100.4729
+    },
+    {
+      "date": "2025-W04",
+      "bankroll": 102.0261
+    },
+    {
+      "date": "2025-W11",
+      "bankroll": 103.1066
+    },
+    {
+      "date": "2025-W13",
+      "bankroll": 106.0887
+    },
+    {
+      "date": "2025-W18",
+      "bankroll": 107.6784
+    },
+    {
+      "date": "2025-W19",
+      "bankroll": 115.4379
+    },
+    {
+      "date": "2025-W20",
+      "bankroll": 117.8763
+    },
+    {
+      "date": "2025-W21",
+      "bankroll": 112.5375
+    },
+    {
+      "date": "2025-W22",
+      "bankroll": 116.7351
+    },
+    {
+      "date": "2025-W24",
+      "bankroll": 117.6763
+    },
+    {
+      "date": "2025-W26",
+      "bankroll": 122.8987
+    },
+    {
+      "date": "2025-W27",
+      "bankroll": 126.6927
+    },
+    {
+      "date": "2025-W29",
+      "bankroll": 112.3819
+    },
+    {
+      "date": "2025-W33",
+      "bankroll": 123.9871
+    },
+    {
+      "date": "2025-W38",
+      "bankroll": 128.8513
+    },
+    {
+      "date": "2025-W40",
+      "bankroll": 115.7256
+    },
+    {
+      "date": "2025-W42",
+      "bankroll": 119.2876
+    },
+    {
+      "date": "2025-W45",
+      "bankroll": 129.2938
+    },
+    {
+      "date": "2025-W47",
+      "bankroll": 132.8659
+    },
+    {
+      "date": "2025-W48",
+      "bankroll": 134.858
+    },
+    {
+      "date": "2025-W49",
+      "bankroll": 136.9163
+    },
+    {
+      "date": "2025-W51",
+      "bankroll": 143.9607
+    },
+    {
+      "date": "2025-W52",
+      "bankroll": 148.2935
+    },
+    {
+      "date": "2026-W01",
+      "bankroll": 151.8691
+    },
+    {
+      "date": "2026-W04",
+      "bankroll": 152.2278
+    }
+  ],
+  "trades": [
+    {
+      "date": "2025-W01",
+      "confidence": 0.87,
+      "won": false,
+      "pnl": -3.3816,
+      "predicted_winner": "In the Heart of the Sea",
+      "actual_winner": "Carry-On",
+      "signal_strength": "strong",
+      "entry_price": 0.8454,
+      "contracts": 4
+    },
+    {
+      "date": "2025-W03",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 3.8545,
+      "predicted_winner": "Back in Action",
+      "actual_winner": "Back in Action",
+      "signal_strength": "strong",
+      "entry_price": 0.7035,
+      "contracts": 13
+    },
+    {
+      "date": "2025-W04",
+      "confidence": 0.65,
+      "won": true,
+      "pnl": 1.5532,
+      "predicted_winner": "Back in Action",
+      "actual_winner": "Back in Action",
+      "signal_strength": "medium",
+      "entry_price": 0.6117,
+      "contracts": 4
+    },
+    {
+      "date": "2025-W11",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 1.0805,
+      "predicted_winner": "The Electric State",
+      "actual_winner": "The Electric State",
+      "signal_strength": "strong",
+      "entry_price": 0.7839,
+      "contracts": 5
+    },
+    {
+      "date": "2025-W13",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 2.9821,
+      "predicted_winner": "The Life List",
+      "actual_winner": "The Life List",
+      "signal_strength": "strong",
+      "entry_price": 0.7289,
+      "contracts": 11
+    },
+    {
+      "date": "2025-W18",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 1.5897,
+      "predicted_winner": "Exterritorial",
+      "actual_winner": "Exterritorial",
+      "signal_strength": "strong",
+      "entry_price": 0.7729,
+      "contracts": 7
+    },
+    {
+      "date": "2025-W19",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 7.7595,
+      "predicted_winner": "Nonnas",
+      "actual_winner": "Nonnas",
+      "signal_strength": "strong",
+      "entry_price": 0.6305,
+      "contracts": 21
+    },
+    {
+      "date": "2025-W20",
+      "confidence": 0.65,
+      "won": true,
+      "pnl": 2.4384,
+      "predicted_winner": "Nonnas",
+      "actual_winner": "Nonnas",
+      "signal_strength": "medium",
+      "entry_price": 0.5936,
+      "contracts": 6
+    },
+    {
+      "date": "2025-W21",
+      "confidence": 0.55,
+      "won": false,
+      "pnl": -5.3388,
+      "predicted_winner": "Fear Street: Prom Queen",
+      "actual_winner": "The Wild Robot",
+      "signal_strength": "medium",
+      "entry_price": 0.4449,
+      "contracts": 12
+    },
+    {
+      "date": "2025-W22",
+      "confidence": 0.55,
+      "won": true,
+      "pnl": 4.1976,
+      "predicted_winner": "The Wild Robot",
+      "actual_winner": "The Wild Robot",
+      "signal_strength": "medium",
+      "entry_price": 0.4753,
+      "contracts": 8
+    },
+    {
+      "date": "2025-W24",
+      "confidence": 0.55,
+      "won": true,
+      "pnl": 0.9412,
+      "predicted_winner": "Straw",
+      "actual_winner": "Straw",
+      "signal_strength": "medium",
+      "entry_price": 0.5294,
+      "contracts": 2
+    },
+    {
+      "date": "2025-W26",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 5.2224,
+      "predicted_winner": "Trainwreck: Poop Cruise",
+      "actual_winner": "Trainwreck: Poop Cruise",
+      "signal_strength": "strong",
+      "entry_price": 0.6928,
+      "contracts": 17
+    },
+    {
+      "date": "2025-W27",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 3.794,
+      "predicted_winner": "The Old Guard 2",
+      "actual_winner": "The Old Guard 2",
+      "signal_strength": "strong",
+      "entry_price": 0.729,
+      "contracts": 14
+    },
+    {
+      "date": "2025-W29",
+      "confidence": 0.87,
+      "won": false,
+      "pnl": -14.3108,
+      "predicted_winner": "KPop Demon Hunters",
+      "actual_winner": "Madea's Destination Wedding",
+      "signal_strength": "strong",
+      "entry_price": 0.7532,
+      "contracts": 19
+    },
+    {
+      "date": "2025-W33",
+      "confidence": 0.55,
+      "won": true,
+      "pnl": 11.6052,
+      "predicted_winner": "Migration",
+      "actual_winner": "Migration",
+      "signal_strength": "medium",
+      "entry_price": 0.3892,
+      "contracts": 19
+    },
+    {
+      "date": "2025-W38",
+      "confidence": 0.65,
+      "won": true,
+      "pnl": 4.8642,
+      "predicted_winner": "Ice Road: Vengeance",
+      "actual_winner": "Ice Road: Vengeance",
+      "signal_strength": "medium",
+      "entry_price": 0.5578,
+      "contracts": 11
+    },
+    {
+      "date": "2025-W40",
+      "confidence": 0.87,
+      "won": false,
+      "pnl": -13.1257,
+      "predicted_winner": "KPop Demon Hunters",
+      "actual_winner": "Ruth & Boaz",
+      "signal_strength": "strong",
+      "entry_price": 0.7721,
+      "contracts": 17
+    },
+    {
+      "date": "2025-W42",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 3.562,
+      "predicted_winner": "The Perfect Neighbor",
+      "actual_winner": "The Perfect Neighbor",
+      "signal_strength": "strong",
+      "entry_price": 0.726,
+      "contracts": 13
+    },
+    {
+      "date": "2025-W45",
+      "confidence": 0.55,
+      "won": true,
+      "pnl": 10.0062,
+      "predicted_winner": "Frankenstein",
+      "actual_winner": "Frankenstein",
+      "signal_strength": "medium",
+      "entry_price": 0.4114,
+      "contracts": 17
+    },
+    {
+      "date": "2025-W47",
+      "confidence": 0.55,
+      "won": true,
+      "pnl": 3.5721,
+      "predicted_winner": "The Carman Family Deaths",
+      "actual_winner": "The Carman Family Deaths",
+      "signal_strength": "medium",
+      "entry_price": 0.4897,
+      "contracts": 7
+    },
+    {
+      "date": "2025-W48",
+      "confidence": 0.87,
+      "won": true,
+      "pnl": 1.9921,
+      "predicted_winner": "Jingle Bell Heist",
+      "actual_winner": "Jingle Bell Heist",
+      "signal_strength": "strong",
+      "entry_price": 0.8189,
+      "contracts": 11
+    },
+    {
+      "date": "2025-W49",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 2.0583,
+      "predicted_winner": "My Secret Santa",
+      "actual_winner": "My Secret Santa",
+      "signal_strength": "strong",
+      "entry_price": 0.7713,
+      "contracts": 9
+    },
+    {
+      "date": "2025-W51",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 7.0444,
+      "predicted_winner": "The Great Flood",
+      "actual_winner": "The Great Flood",
+      "signal_strength": "strong",
+      "entry_price": 0.6798,
+      "contracts": 22
+    },
+    {
+      "date": "2025-W52",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 4.3328,
+      "predicted_winner": "Wrath of Man",
+      "actual_winner": "Wrath of Man",
+      "signal_strength": "strong",
+      "entry_price": 0.7292,
+      "contracts": 16
+    },
+    {
+      "date": "2026-W01",
+      "confidence": 0.82,
+      "won": true,
+      "pnl": 3.5756,
+      "predicted_winner": "Evil Influencer: The Jodi Hildebrandt Story",
+      "actual_winner": "Evil Influencer: The Jodi Hildebrandt Story",
+      "signal_strength": "strong",
+      "entry_price": 0.7446,
+      "contracts": 14
+    },
+    {
+      "date": "2026-W04",
+      "confidence": 0.65,
+      "won": true,
+      "pnl": 0.3587,
+      "predicted_winner": "The Rip",
+      "actual_winner": "The Rip",
+      "signal_strength": "medium",
+      "entry_price": 0.6413,
+      "contracts": 1
+    }
+  ],
+  "summary": {
+    "total_trades": 26,
+    "wins": 22,
+    "losses": 4,
+    "win_rate": 0.8461538461538461,
+    "total_pnl": 52.2278,
+    "final_bankroll": 152.2278,
+    "roi": 52.2278,
+    "max_drawdown": 0.113,
+    "sharpe_ratio": 2.4964,
+    "profit_factor": 2.4445,
+    "avg_win": 4.0175,
+    "avg_loss": -9.0392,
+    "best_trade": 11.6052,
+    "worst_trade": -14.3108
+  }
+}

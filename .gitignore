@@ -1,0 +1,29 @@
+# Secrets — never commit
+.env
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data & generated output (large / regenerable)
+data/*.csv
+data/raw/
+data/processed/
+data/sample/
+output/*.png
+output/*.html
+
+# Keep the ledgers, results and the growing daily archive — they ARE the track record
+!data/paper_trades.json
+!data/latest_cycle.json
+!data/daily_rankings.csv
+!output/backtest_results.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
