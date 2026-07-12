@@ -1,0 +1,50 @@
+name: Shipwrecked Monitor
+
+# Polls Kalshi every 10 minutes for the "Shipwrecked" movie.
+# When detected, sends email + SMS alerts (no auto-betting — alerts only).
+#
+# REQUIRED repo secrets (Settings → Secrets and variables → Actions):
+#   EMAIL_FROM           — Gmail address for sending alerts
+#   EMAIL_PASSWORD       — Gmail app password (not your regular password)
+#   EMAIL_TO             — where alerts go
+#   PHONE_NUMBER         — 10-digit number for SMS (optional, omit to skip SMS)
+#   PHONE_CARRIER        — verizon|att|tmobile|etc. (optional)
+#
+# Manual run: Actions tab → "Shipwrecked Monitor" → Run workflow.
+#
+# Pro tip: if 10-min polling isn't fast enough, reduce the cron interval
+# (GitHub's minimum is ~5 min). For sub-minute polling you'd need a VPS
+# or a free-tier cloud service (Render, fly.io, PythonAnywhere).
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"    # every 10 minutes
+  workflow_dispatch:          # manual trigger
+
+permissions:
+  contents: read
+
+jobs:
+  check-shipwrecked:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5        # --once exits fast; kill if stuck
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check for Shipwrecked
+        env:
+          EMAIL_FROM:     ${{ secrets.EMAIL_FROM }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO:       ${{ secrets.EMAIL_TO }}
+          PHONE_NUMBER:   ${{ secrets.PHONE_NUMBER }}
+          PHONE_CARRIER:  ${{ secrets.PHONE_CARRIER }}
+        run: python shipwrecked_monitor.py --once
